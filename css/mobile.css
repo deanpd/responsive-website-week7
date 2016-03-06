@@ -5,6 +5,10 @@ html {
 
 body {
   font-family: Verdana, Geneva, sans-serif;
+  width: 100%; 
+  line-height: 1.5em;
+  background: #f5f6d4;
+  color: #6C6E3C;
 }
 
 /* LINK STYLES SECTIONS FOR THE WEBSITE */
