@@ -1,0 +1,102 @@
+html {
+  background-color: #F5F6D4;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* LINK STYLES SECTIONS FOR THE WEBSITE */
+nav a {
+  color: #331C12;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: .9em;
+  padding: 5px 22px;
+  border-radius: 5px;
+}
+
+/* Visited links */
+nav a:visited {
+  color: #331C12;
+}
+/* Hover links */
+nav a:hover {
+  color: #A7C520;
+}
+/* Active links */
+nav a:active {
+  color: #331C12;
+}
+
+nav {
+/*  width; 100%; */
+  text-align: center;
+  margin: 0;
+  background: #85AB18;
+}
+nav ul {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: 2em;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: #662200;
+}
+
+/* Body links */
+#mainContent a {
+  text-decoration: underline;
+  margin: 0;
+  padding: .5em 1em 1em 2em;
+}
+#mainContent a:link {
+  color: #2C2E21;
+}
+#mainContent a:visited {
+  color: #2C2E21;
+}
+#mainContent a:hover {
+  color: #A7C520;
+}
+#mainContent a:active {
+  color: #2C2E21;
+}
+
+/* Overrides the padding for the link in the aside elements. */
+#mainContent aside a {
+  padding: 0;
+}
+#mainContent img {
+  max-width: 100%;
+  padding: 15px;
+}
+
+header {
+  margin: 0;
+  padding: 1.5em;
+  background: #85AB18 url(../images/interfaceImages/banner-background.png) no-repeat -200px; center; /* -200px helps to offset the background. The background image would ideally be swapped out for a smaller image on mobile. */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 3px solid #2C2E21;
+}
+header h1 {
+  margin: 0;
+  text-align: left;
+  font-size: 2em;
+  padding: 30px 0px 30px 0px;
+  width: 100px;
+  color: #A7C520;
+}
